@@ -1,0 +1,138 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+ margin: 0;
+ padding: 0;
+}
+ 
+body {
+ font-family: "Avenir Next";
+}
+ 
+li {
+ list-style: none;
+}
+.header {
+ text-align: center;
+ background-color: #9500c2;
+ color: #fff;
+ height: 120px;
+}
+ 
+.header-logo {
+ float: center;
+ font-size: 48px;
+ padding: 30px 40px;
+}
+ 
+* {
+ box-sizing: border-box;
+ font-family: 'Roboto', sans-serif;
+}
+ 
+body {
+ background: #F4E5FF;
+}
+ 
+.container {
+ padding-top: 20px;
+ width: 400px;
+ margin: auto;
+}
+ 
+.calc-body {
+ width: 475px;
+ margin: auto;
+ min-height: 500px;
+ border: solid 1px #3A4655;
+ box-shadow: 0 8px 50px -7px black;
+ margin: 20px;
+}
+ 
+.calc-screen {
+ background: #3A4655;
+ width: 100%;
+ height: 200px;
+ padding: 25px;
+}
+ 
+.calc-operation {
+ text-align: center;
+ color: #727B86;
+ font-size: 30px;
+ padding-bottom: 10px;
+ border-bottom: dotted 1px;
+}
+ 
+.calc-typed {
+ margin-top: 20px;
+ font-size: 45px;
+ text-align: center;
+ color: #fff;
+}
+ 
+.calc-button-row {
+ width: 100%;
+ background: #3C4857;
+ }
+ 
+.button,
+.button.e,
+.button.clear,
+.button.backspace{
+ width: 25%;
+ background: #425062;
+ color: #fff;
+ padding: 40px;
+ display: inline-block;
+ font-size: 24px;
+ text-align: center;
+ vertical-align: middle;
+ margin-right: -4px;
+ border-right: solid 2px #3C4857;
+ border-bottom: solid 2px #3C4857;
+ transition: all 0.1s ease-in-out;
+ cursor: pointer;
+}
+ 
+.button.l {
+ color: #AEB3BA;
+ background: #404D5E;
+}
+ 
+.button:hover,
+.button.e:hover,
+.button.clear:hover,
+.button.backspace:hover {
+ background: #E0B612;
+ 
+}
+ 
+.button.e:hover,
+.button.clear:hover,
+.button.backspace:hover{
+ background: #E0B612;
+ color: #fff;
+}
+ 
+.blink-me {
+ color: #E0B612;
+}
+ 
+.button.backspace {
+ color: rgb(255, 68, 68);
+ background: #404D5E;
+}
+ 
+.button.clear {
+	text-align: center;
+ color: rgb(255, 68, 68);
+ background: #404D5E;
+}
+ 
+.button.e {
+	text-align: center;
+ color: rgb(0, 255, 21);
+ background: #404D5E;
+}
